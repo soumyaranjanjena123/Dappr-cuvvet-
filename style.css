@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Delius+Unicase:wght@400;700&family=Inter:wght@100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    background-color: #6F6AF7;
+    padding-bottom:60px;
+    /* width: 100vw; */
+    height: 20px;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+
+}
+
+.title{
+    font-family: Delius Unicase;
+
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-left: 18px;
+    
+}
+
+.nav-links{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav-link{
+    margin: 0 10px;
+}
+
+.nav-link a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    font-size: 21px;
+}
+
+.nav-link input{
+    border: none;
+    border-radius: 50px;
+    height: 24px;
+    padding: 10px;
+}
+.nav-link img{
+    height: 16px;
+    width: 16px;
+    position: relative;
+    right: 25px;
+    top: 3px;
+}
+#ham{
+    margin-right: 20px;
+    font-size: 24px;
+    color: white;
+}
+
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.content img{
+    height: 375px ;
+    width: 329px;
+    margin: 136px 50px 10px 98px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+    
+
+}
+
+.content textarea{
+    width: 950px;
+    height: 375px;
+    resize: none;
+    border:  solid #E5D8FF;
+    background-color: #E5D8FF;
+    border-radius: 15px;
+    margin-top: 136px;
+    font-family: sans-serif;
+    font-size: 20px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+
+
+}
+
+.social-icons{
+    display: flex;
+    flex-direction: column;
+    
+   right: 5px;
+   top: 175px;
+   position: fixed;
+   z-index: 1000;
+
+   
+   
+   
+}
+
+.social-icons img{
+    border: 2px solid black;
+    margin: 5px;
+    border-radius: 8px;
+    background: white;
+    height: 65px;
+    width: 65px;
+  
+    
+}
+
+#help{
+    height: 100px;
+    width: 100px;
+    position: sticky;
+    left: 1350px;
+    top: 600px;
+    z-index: 1000;
+
+}
+
+.features{
+    display: flex;
+    justify-content: space-around;
+}
+
+.features > div{
+    height: 68px;
+    width: 165px;
+    /* background-color: #6F6AF7; */
+    color: white;
+    font-family: DM Sans;
+    border-radius: 10px;
+    margin-top: 12px;
+    text-align: left;
+    padding: 10px;
+    box-shadow: 2px 2px  25px rgba(0, 0, 0, 0.5);
+    
+}
+
+.feature1{
+    background-color: #929DFF;
+
+    
+
+}
+.feature2{
+
+    background-color: #734CF2;
+    
+}
+.feature3{
+ background-color:  #D288FF;
+ 
+}
+.feature4{
+ background-color: black;
+}
+
+
+.form{
+    display: flex;
+    height: 500px;
+    width: 1336px;
+    background-color: #734CF2;
+    margin: 90px;
+    border-radius: 20px;
+    
+
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    padding: 40px ;
+    align-items: flex-start;
+    
+    
+
+}
+
+.buttons button{
+    margin: 50px 0 30px 25px;
+    height: 70px;
+    width: 188px;
+    border-radius: 15px;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 500;
+    /* border: none; */
+    padding: 20px;
+    box-shadow: 2px 2px  25px rgba(0, 0, 0, 0.5);
+
+}
+
+.info{
+    height: 470px;
+    width: 988px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 15px;
+    left: 40px;
+    border-radius: 20px;
+    /* flex: 1; */
+}
+
+.info h3{
+    margin: 60px 0 30px 40px ;
+    color: #04285A;
+    font-family: DM Sans;
+    font-size: 35px;
+
+}
+
+.info p{
+    margin-left: 60px;
+    color: #04285A;
+    /* font-size: 20px; */
+    font-family: DM Sans;
+
+}
+.info button{
+    position: relative;
+    left: 800px;
+    bottom: -80px;
+    background-color: black;
+    border-radius: 8px;
+    height: 50px;
+    width: 120px;
+    color: white;
+    font-size: 19px;
+    align-items: center;
+    
+}
+
+.info img{
+    height: 20px;
+    width: 30px;
+}
+
+
+.active{
+    background-color: #BCE0F6;
+    color: black;
+    border: none;
+    
+}
+
+.norm{
+    border: 2px solid white;
+    background-color: #483EFF;
+    color: white;
+    
+
+}
